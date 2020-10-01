@@ -27,7 +27,7 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 
 ## Encased Smoker / Fire Jet
 
-The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. *(figure 7)* When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. *(figure 8)* When placed, the smoker requires one block of empty air space above it to function; if this space is available, the smoker will then prevent blocks from being placed inside this space. The **Encased Fire Jet** *(figure 8)* works similarly, but instead produces a column of flame instead of smoke. *(figure 9)*
+The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. *(figure 7)* When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. *(figure 8)* When placed, the smoker requires one block of empty air space above it to function; if this space is available, the smoker will then prevent blocks from being placed inside this space. The **Encased Fire Jet** *(figure 9)* works similarly, but instead produces a column of flame instead of smoke. *(figure 10)*
 
 ## Images
 
