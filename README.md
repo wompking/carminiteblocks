@@ -23,7 +23,7 @@ To start out, you'll want to craft a **dropper**;  this serves as the custom cra
 
 ## Basic Crafting Recipes
 
-The first thing you'll want to craft with your newfound power is **Carminite**; its crafting recipe requires iron, redstone, blaze powder, and netherbrick, and is a shapeless recipe. *(figure 3)* The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. *(figure 4 and 5)*.
+The first thing you'll want to craft with your newfound power is **Carminite**; its crafting recipe requires iron, redstone, blaze powder, and netherbrick, and is a shapeless recipe. *(figure 3)* The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. *(figures 4 and 5)*. If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. *(figure 6)*
 
 ## Images
 
@@ -41,3 +41,6 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 
 #### Figure 5
 <img src="https://media.discordapp.net/attachments/761101923088334861/761107487960072202/Screenshot_2020-10-01_at_15.04.09.png" width="200" title="Encased Towerwood's crafting recipe">
+
+#### Figure 6
+<img src="https://media.discordapp.net/attachments/761101923088334861/761116224469467146/Screenshot_2020-10-01_at_15.37.27.png" width="200" title="Carminite Block crafting recipe">
