@@ -23,7 +23,11 @@ To start out, you'll want to craft a **dropper**;  this serves as the custom cra
 
 ## Basic Crafting Recipes
 
-The first thing you'll want to craft with your newfound power is **Carminite**; its crafting recipe requires iron, redstone, blaze powder, and netherbrick, and is a shapeless recipe. *(figure 3)* The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. *(figures 4 and 5)*. If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. *(figure 6)*
+The first thing you'll want to craft with your newfound power is **Carminite**; its crafting recipe requires iron, redstone, blaze powder, and netherbrick, and is a shapeless recipe. *(figure 3)* The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. *(figures 4 and 5)*. If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. *(figure 6)* Carminite and carminite blocks can be found inside ruined portal chests. *(figure ADD LATER)*
+
+## Encased Smoker / Fire Jet
+
+The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. *(figure 7)* When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. *(figure 8)* When placed, the smoker requires one block of empty air space above it to function; if this space is available, the smoker will then prevent blocks from being placed inside this space.
 
 ## Images
 
@@ -44,3 +48,10 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 
 #### Figure 6
 <img src="https://media.discordapp.net/attachments/761101923088334861/761116224469467146/Screenshot_2020-10-01_at_15.37.27.png" width="200" title="Carminite Block crafting recipe">
+
+#### Figure 7
+<img src="https://media.discordapp.net/attachments/761101923088334861/761121374768201769/Screenshot_2020-10-01_at_15.59.21.png" width="200" title="Encased Smoker crafting recipe"> 
+
+#### Figure 8
+<img src="https://media.discordapp.net/attachments/761101923088334861/761123288276533248/2020-10-01_16.01.22_copy.png" width="200" title="Active Encased Smoker"> 
+
