@@ -5,7 +5,7 @@ A repository for the Carminite Blocks datapack i'm making; no files will be uplo
 
 * [Crafting Basics](https://github.com/wompking/carminiteblocks/blob/master/README.md#crafting-basics)
 * [Basic Recipes](https://github.com/wompking/carminiteblocks/blob/master/README.md#basic-crafting-recipes)
-* [Encased Smoker + Fire Jet]()
+* [Encased Smoker + Fire Jet](https://github.com/wompking/carminiteblocks/blob/master/README.md#encased-smoker--fire-jet)
 * [Reappearing Block / Controller]()
 * [Carminite Builder]()
 * [Ghast Trap]()
