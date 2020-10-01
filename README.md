@@ -3,8 +3,8 @@ A repository for the Carminite Blocks datapack i'm making; no files will be uplo
 
 ## Table Of Contents
 
-* [Crafting Basics]()
-* [Basic Recipes]()
+* [Crafting Basics](https://github.com/wompking/carminiteblocks/blob/master/README.md#crafting-basics)
+* [Basic Recipes](https://github.com/wompking/carminiteblocks/blob/master/README.md#basic-crafting-recipes)
 * [Encased Smoker + Fire Jet]()
 * [Reappearing Block / Controller]()
 * [Carminite Builder]()
@@ -15,7 +15,7 @@ A repository for the Carminite Blocks datapack i'm making; no files will be uplo
 * [Installing]()
 * [Uninstalling]()
 * [Credits]()
-* [Images]()
+* [Images](https://github.com/wompking/carminiteblocks/blob/master/README.md#images)
 
 ## Crafting Basics
 
