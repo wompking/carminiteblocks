@@ -153,12 +153,12 @@ The builder can break crops and other non-solid plants by driving into them, and
 
 
 #### Figure 17
-<img src="https://media.discordapp.net/attachments/761101923088334861/761448964423417866/Screenshot_2020-10-02_at_13.41.21.png" width="300" title="Built blocks in the midst of disappearing"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761477776112091166/Screenshot_2020-10-02_at_15.35.51.png" width="300" title="Built blocks in the midst of disappearing"> 
 
 *Built blocks in the midst of disappearing*
 
 
 #### Figure 18
-<img src="https://media.discordapp.net/attachments/761101923088334861/761449035043045396/Screenshot_2020-10-02_at_13.41.39.png" width="300" title="Carminite Builder breaking crops"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761477744759930880/Screenshot_2020-10-02_at_15.35.44.png" width="300" title="Carminite Builder breaking crops"> 
 
 *Carminite Builder breaking crops*
