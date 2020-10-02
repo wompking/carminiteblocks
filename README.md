@@ -9,7 +9,7 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 * [Basic Recipes](https://github.com/wompking/carminiteblocks/blob/master/README.md#basic-crafting-recipes)
 * [Encased Smoker + Fire Jet](https://github.com/wompking/carminiteblocks/blob/master/README.md#encased-smoker--fire-jet)
 * [Reappearing Block / Controller](https://github.com/wompking/carminiteblocks/blob/master/README.md#reappearing-block--controller)
-* [Carminite Builder]()
+* [Carminite Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-builder)
 * [Ghast Trap]()
 * [Anti-Builder]()
 * [Carminite Tools]()
