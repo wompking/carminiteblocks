@@ -6,7 +6,7 @@ A repository for the Carminite Blocks datapack i'm making; no files will be uplo
 * [Crafting Basics](https://github.com/wompking/carminiteblocks/blob/master/README.md#crafting-basics)
 * [Basic Recipes](https://github.com/wompking/carminiteblocks/blob/master/README.md#basic-crafting-recipes)
 * [Encased Smoker + Fire Jet](https://github.com/wompking/carminiteblocks/blob/master/README.md#encased-smoker--fire-jet)
-* [Reappearing Block / Controller]()
+* [Reappearing Block / Controller](https://github.com/wompking/carminiteblocks/blob/master/README.md#reappearing-block--controller)
 * [Carminite Builder]()
 * [Ghast Trap]()
 * [Anti-Builder]()
@@ -28,6 +28,10 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 ## Encased Smoker / Fire Jet
 
 The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. *(figure 7)* When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. *(figure 8)* When placed, the smoker requires one block of empty air space above it to function; if this space is available, the smoker will then prevent blocks from being placed inside this space. The **Encased Fire Jet** *(figure 9)* works similarly, but instead produces a column of flame instead of smoke. *(figure 10)*
+
+## Reappearing Block / Controller
+
+The **Reappearing Block** *(figure 11)* is a block that (you guessed it) appears and disappears based on a redstone signal. To activate it, place it next to a **Reappearing Controller** *(figure 12)* and activate the controller. When activated, the controller will cause all contiguous reappearing blocks attached to start becoming intangible; *(figure 13)* when the redstone signal is turned off, they will become solid again. *(figure 14)* In the case that multiple controllers are attached, the blocks will only become solid when both controllers are turned off.
 
 ## Images
 
@@ -60,3 +64,17 @@ The first functional block added by the Carminite Blocks datapack is the **Encas
 
 #### Figure 10
 <img src="https://media.discordapp.net/attachments/761101923088334861/761129062558203914/2020-10-01_16.27.14_copy.png" width="200" title="Active Encased Fire Jet"> 
+
+#### Figure 11
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448385915125770/Screenshot_2020-10-02_at_13.24.42.png" width="200" title="Reappearing Block crafting recipe"> 
+
+#### Figure 12
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448384065175552/Screenshot_2020-10-02_at_13.25.51.png" width="200" title="Reappearing Controller crafting recipe"> 
+
+#### Figure 13
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448964423417866/Screenshot_2020-10-02_at_13.41.21.png" width="200" title="Reappearing Blocks disappearing"> 
+
+#### Figure 14
+<img src="https://media.discordapp.net/attachments/761101923088334861/761449035043045396/Screenshot_2020-10-02_at_13.41.39.png" width="200" title="Reappearing Blocks reappearing"> 
+
+
