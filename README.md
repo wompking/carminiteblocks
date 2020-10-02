@@ -7,13 +7,14 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 
 * [Crafting Basics](https://github.com/wompking/carminiteblocks/blob/master/README.md#crafting-basics)
 * [Basic Recipes](https://github.com/wompking/carminiteblocks/blob/master/README.md#basic-crafting-recipes)
-* [Encased Smoker + Fire Jet](https://github.com/wompking/carminiteblocks/blob/master/README.md#encased-smoker--fire-jet)
+* [Encased Smoker / Fire Jet](https://github.com/wompking/carminiteblocks/blob/master/README.md#encased-smoker--fire-jet)
 * [Reappearing Block / Controller](https://github.com/wompking/carminiteblocks/blob/master/README.md#reappearing-block--controller)
 * [Carminite Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-builder)
-* [Ghast Trap]()
+* [Ghast Trap](https://github.com/wompking/carminiteblocks/blob/master/README.md#ghast-trap)
 * [Anti-Builder]()
 * [Carminite Tools]()
 * [Carminite Apples]()
+* [Ghast Meat]()
 * [Installing]()
 * [Uninstalling]()
 * [Credits]()
@@ -57,6 +58,12 @@ If the block is broken before the end condition is reached, it **will not** send
 
 The builder can break crops and other non-solid plants by driving into them, and does not turn farmland underneath it into dirt. This means it is very suitable to use with farm automation. [*(figure 18)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-18)
 
+## Ghast Trap
+
+The **Ghast Trap** [*(figure 19)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-19) sucks in ghasts. It inherits the same base functionality as the [**Encased Smoker / Fire Jet**](https://github.com/wompking/carminiteblocks/blob/master/README.md#encased-smoker--fire-jet) blocks, but when activated, it produces a red particle plume. [*(figure 20)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-20)
+
+If the Ghast Trap has a magma block underneath it, then, when a ghast flies into its activated plume, the ghast will be unable to move and attack and the magma block will turn to blackstone. [*(figure 21)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-21) The ghast can then be easily dispatched. If the Ghast Trap is broken or deactivated, the ghast will be able to move and attack again. 
+
 ## Images
 
 #### Figure 1
@@ -84,7 +91,7 @@ The builder can break crops and other non-solid plants by driving into them, and
 #### Figure 5
 <img src="https://media.discordapp.net/attachments/761101923088334861/761107487960072202/Screenshot_2020-10-01_at_15.04.09.png" width="300" title="Encased Towerwood's crafting recipe">
 
-*Encased Towerwood's crafting recip*
+*Encased Towerwood's crafting recipe*
 
 
 #### Figure 6
@@ -162,3 +169,18 @@ The builder can break crops and other non-solid plants by driving into them, and
 <img src="https://media.discordapp.net/attachments/761101923088334861/761477744759930880/Screenshot_2020-10-02_at_15.35.44.png" width="300" title="Carminite Builder breaking crops"> 
 
 *Carminite Builder breaking crops*
+
+#### Figure 19
+<img src="https://media.discordapp.net/attachments/761101923088334861/761482066620710922/Screenshot_2020-10-02_at_15.52.44.png" width="300" title="Ghast Trap crafting recipe"> 
+
+*Ghast Trap crafting recipe*
+
+#### Figure 20
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484546540699648/Screenshot_2020-10-02_at_16.02.45.png" width="300" title="Activated Ghast Trap"> 
+
+*Activated Ghast Trap*
+
+#### Figure 21
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+
+*Ghast Trap with captured ghast, having already depleted the magma block*
