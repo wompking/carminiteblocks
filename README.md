@@ -47,6 +47,16 @@ When activated, the controller will cause all contiguous reappearing blocks atta
 
 In the case that multiple controllers are attached, the blocks will only become solid when both controllers are turned off.
 
+## Carminite Builder
+
+The **Carminite Builder** [*(figure 15)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-15) is a block that when powered, builds temporary blocks in different directions. When turned on, it will select the nearest player and start building a line of blocks in the direction the selected player is looking. [*(figure 16)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-16)
+
+When it is turned off, or when it builds 17 blocks, or when it is "driven" into a solid block, the blocks built will begin decaying. [*(figure 17)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-17) While the blocks decay, it will be in a "recharging" state and will not be able to create any new blocks. This "recharging" state ends when all of the blocks decay, and its end is signalled by a high-pitched ping from the builder.
+
+If the block is broken before the end condition is reached, it **will not** send the "start decaying" signal to the built blocks. This means that instead of beginning to decay, the blocks will only decay when the end of their lifetime is reached, which is, by default, 100 seconds.
+
+The builder can break crops and other non-solid plants by driving into them, and does not turn farmland underneath it into dirt. This means it is very suitable to use with farm automation. [*(figure 18)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-18)
+
 ## Images
 
 #### Figure 1
@@ -126,9 +136,29 @@ In the case that multiple controllers are attached, the blocks will only become 
 
 
 #### Figure 14
-<img src="https://media.discordapp.net/attachments/761101923088334861/761449035043045396/Screenshot_2020-10-02_at_13.41.39.png" width="300" title="Reappearing Blocks reappearing"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761474438725238824/Screenshot_2020-10-02_at_15.12.45.png" width="300" title="Carminite Builder crafting recipe"> 
 
-*Reappearing Blocks reappearing*
+*Carminite Builder crafting recipe*
+
+#### Figure 15
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448385915125770/Screenshot_2020-10-02_at_13.24.42.png" width="300" title="Reappearing Block crafting recipe"> 
+
+*Reappearing Block crafting recipe*
 
 
+#### Figure 16
+<img src="https://media.discordapp.net/attachments/761101923088334861/761474421944221706/Screenshot_2020-10-02_at_15.22.32.png" width="300" title="Player steering a Carminite Builder"> 
 
+*Player steering a Carminite Builder*
+
+
+#### Figure 17
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448964423417866/Screenshot_2020-10-02_at_13.41.21.png" width="300" title="Built blocks in the midst of disappearing"> 
+
+*Built blocks in the midst of disappearing*
+
+
+#### Figure 18
+<img src="https://media.discordapp.net/attachments/761101923088334861/761449035043045396/Screenshot_2020-10-02_at_13.41.39.png" width="300" title="Carminite Builder breaking crops"> 
+
+*Carminite Builder breaking crops*
