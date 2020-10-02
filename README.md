@@ -27,7 +27,7 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 
 ## Encased Smoker / Fire Jet
 
-The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. [*(figure 7)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-7)] When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. [*(figure 8)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-8) When placed, the smoker requires one block of empty air space above it to function; if this space is available, the smoker will then prevent blocks from being placed inside this space. The **Encased Fire Jet** [*(figure 9)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-9) works similarly, but instead produces a column of flame instead of smoke. [*(figure 10)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-10)
+The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. [*(figure 7)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-7) When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. [*(figure 8)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-8) When placed, the smoker requires one block of empty air space above it to function; if this space is available, the smoker will then prevent blocks from being placed inside this space. The **Encased Fire Jet** [*(figure 9)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-9) works similarly, but instead produces a column of flame instead of smoke. [*(figure 10)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-10)
 
 ## Reappearing Block / Controller
 
@@ -66,15 +66,15 @@ The **Reappearing Block** [*(figure 11)*](https://github.com/wompking/carminiteb
 <img src="https://media.discordapp.net/attachments/761101923088334861/761129062558203914/2020-10-01_16.27.14_copy.png" width="200" title="Active Encased Fire Jet"> 
 
 #### Figure 11
-<img src="https://media.discordapp.net/attachments/761101923088334861/761448385915125770/Screenshot_2020-10-02_at_13.24.42.png" width="200" title="Reappearing Block crafting recipe"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448385915125770/Screenshot_2020-10-02_at_13.24.42.png" width="300" title="Reappearing Block crafting recipe"> 
 
 #### Figure 12
-<img src="https://media.discordapp.net/attachments/761101923088334861/761448384065175552/Screenshot_2020-10-02_at_13.25.51.png" width="200" title="Reappearing Controller crafting recipe"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448384065175552/Screenshot_2020-10-02_at_13.25.51.png" width="300" title="Reappearing Controller crafting recipe"> 
 
 #### Figure 13
-<img src="https://media.discordapp.net/attachments/761101923088334861/761448964423417866/Screenshot_2020-10-02_at_13.41.21.png" width="200" title="Reappearing Blocks disappearing"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761448964423417866/Screenshot_2020-10-02_at_13.41.21.png" width="300" title="Reappearing Blocks disappearing"> 
 
 #### Figure 14
-<img src="https://media.discordapp.net/attachments/761101923088334861/761449035043045396/Screenshot_2020-10-02_at_13.41.39.png" width="200" title="Reappearing Blocks reappearing"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761449035043045396/Screenshot_2020-10-02_at_13.41.39.png" width="300" title="Reappearing Blocks reappearing"> 
 
 
