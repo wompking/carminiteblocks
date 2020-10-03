@@ -11,7 +11,7 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 * [Reappearing Block / Controller](https://github.com/wompking/carminiteblocks/blob/master/README.md#reappearing-block--controller)
 * [Carminite Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-builder)
 * [Ghast Trap](https://github.com/wompking/carminiteblocks/blob/master/README.md#ghast-trap)
-* [Anti-Builder]()
+* [Anti-Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#anti-builder)
 * [Carminite Tools]()
 * [Carminite Apples]()
 * [Ghast Meat]()
@@ -194,31 +194,32 @@ An Anti-Builder checks the blocks around it every second. When a Anti-Builder up
 *Ghast Trap with captured ghast, having already depleted the magma block*
 
 #### Figure 22
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761763881202352148/Screenshot_2020-10-03_at_10.26.05.png" width="300" title="Anti-Builder crafting recipe"> 
 
 *Anti-Builder crafting recipe*
 
 #### Figure 23
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761768136033959936/Screenshot_2020-10-03_at_10.49.37.png" width="300" title="Anti-Builder area of effect"> 
 
 *Anti-Builder area of effect*
 
 #### Figure 24
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761768244428013648/Screenshot_2020-10-03_at_10.50.03.png" width="300" title="Two Anti-Builders, merging their areas of effect"> 
 
 *Two Anti-Builders, merging their areas of effect*
 
 #### Figure 25
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761768438229499934/Screenshot_2020-10-03_at_10.50.50.png" width="300" title="Two Anti-Builders, one block too close together to align properly"> 
 
-*Two Anti-Builders, one block too close together to align properly.*
+*Two Anti-Builders, one block too close together to align properly*
+
 #### Figure 26
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761768597898133504/Screenshot_2020-10-03_at_10.51.28.png" width="300" title="Two Anti-Builders, one block too far apart to align properly"> 
 
-*Two Anti-Builders, one block too far apart to align properly.*
+*Two Anti-Builders, one block too far apart to align properly*
 
 #### Figure 27
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761763926890250261/2020-10-03_10.32.00_4.png?width=1808&height=1195" width="300" title="A placed block in an Anti-Builder's area of effect being broken"> 
 
 *A placed block in an Anti-Builder's area of effect being broken*
 
