@@ -246,9 +246,14 @@ Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and
 *A broken block in an Anti-Builder's area of effect being replaced by an anti-built block (NOT ADDED YET)*
 
 #### Figure 29
-<img src="https://media.discordapp.net/attachments/761101923088334861/761775420491169882/Screenshot_2020-10-03_at_11.18.35.png" width="300" title="The particle resulting from a Carminite tool teleporting an item"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761775420491169882/Screenshot_2020-10-03_at_11.18.35.png" width="300" title="The particle effect resulting from a Carminite tool teleporting an item"> 
 
-*The particle resulting from a Carminite tool teleporting an item*
+*The particle effect resulting from a Carminite tool teleporting an item*
+
+#### Figure 30
+<img src="https://media.discordapp.net/attachments/761101923088334861/761868453279694858/Screenshot_2020-10-03_at_17.28.15.png" width="300" title=" player under the Item Magnetism effect sucking in items. Note the red particle lines."> 
+
+*A player under the Item Magnetism effect sucking in items. Note the red particle lines.*
 
 #### Figure 31
 <img src="https://media.discordapp.net/attachments/761101923088334861/761785202343018496/Screenshot_2020-10-03_at_11.57.24.png" width="300" title="The hotbar title showing the effect time remaining"> 
