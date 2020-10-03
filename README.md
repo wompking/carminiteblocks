@@ -12,7 +12,7 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 * [Carminite Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-builder)
 * [Ghast Trap](https://github.com/wompking/carminiteblocks/blob/master/README.md#ghast-trap)
 * [Anti-Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#anti-builder)
-* [Carminite Tools]()
+* [Carminite Tools](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-tools)
 * [Carminite Apples]()
 * [Ghast Meat]()
 * [Installing]()
@@ -30,7 +30,7 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 
 The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. [*(figures 4 and 5)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-4)
 
-If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. [*(figure 6)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-6) Carminite and Carminite Blocks can be found inside ruined portal chests. *(figure ADD LATER)*
+If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. [*(figure 6)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-6) Carminite and Carminite Blocks can be found inside ruined portal chests. [*(figure ADD LATER)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-???)
 
 ## Encased Smoker / Fire Jet
 
@@ -71,6 +71,14 @@ The **Anti-Builder** [*(figure 22*)](https://github.com/wompking/carminiteblocks
 If another Anti-Builder is placed precisely 8 blocks away (two area-of-effect distances) the red boxes will merge to better symbolise the area of effect. [*(figure 24*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-24) Aligning the Anti-Builders incorrectly will not produce this effect. [*(figures 25 and 26*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-25) Incorrect alignment *will not* stop the Anti-Builders from functioning, however.
 
 An Anti-Builder checks the blocks around it every second. When a Anti-Builder updates, newly placed blocks inside its area of effect will break, and newly broken blocks will be replaced by anti-built blocks. [*(figures 27 and 28*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-27)
+
+## Carminite Tools
+
+**Carminite Tools** are, well, tools made out of Carminite. They are crafted like other tools, using the same crafting recipe where Carminite replaces the material being used. They have 1.6x the attack speed of their iron counterparts, but the same damage and durability rating. Carminite tools generate inside Ruined Portal chests. [*(figure ADD LATER)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-???)
+
+Their special ability is *Item Magnetism*; when a Carminite tool is used, any dropped items resulting from the action will be teleported to the player using the tool. For example, if you were to use a Carminite Pickaxe to mine a block, the block would teleport to you. [*(figure 29)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-29) However, if you were to use a Carminite Pickaxe to kill a mob, the items would also teleport to you, since the effect is independent of the action performed.
+
+Carminite tools can only be repaired with iron, not Carminite. This is because *(insert preferred handwavy lore reason here)*.
 
 ## Images
 
@@ -219,10 +227,15 @@ An Anti-Builder checks the blocks around it every second. When a Anti-Builder up
 *Two Anti-Builders, one block too far apart to align properly*
 
 #### Figure 27
-<img src="https://media.discordapp.net/attachments/761101923088334861/761763926890250261/2020-10-03_10.32.00_4.png?width=1808&height=1195" width="300" title="A placed block in an Anti-Builder's area of effect being broken"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761763926890250261/2020-10-03_10.32.00_4.png" width="300" title="A placed block in an Anti-Builder's area of effect being broken"> 
 
 *A placed block in an Anti-Builder's area of effect being broken*
 
 #### Figure 28
 
 *A broken block in an Anti-Builder's area of effect being replaced by an anti-built block (NOT ADDED YET)*
+
+#### Figure 29
+<img src="https://media.discordapp.net/attachments/761101923088334861/761775420491169882/Screenshot_2020-10-03_at_11.18.35.png" width="300" title="The particle resulting from a Carminite tool teleporting an item"> 
+
+*The particle resulting from a Carminite tool teleporting an item*
