@@ -13,7 +13,7 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 * [Ghast Trap](https://github.com/wompking/carminiteblocks/blob/master/README.md#ghast-trap)
 * [Anti-Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#anti-builder)
 * [Carminite Tools](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-tools)
-* [Carminite Apples]()
+* [Carminite Apples](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-apples)
 * [Ghast Meat]()
 * [Installing]()
 * [Uninstalling]()
@@ -26,11 +26,13 @@ To start out, you'll want to craft a **dropper**;  this serves as the custom cra
 
 ## Basic Crafting Recipes
 
-The first thing you'll want to craft with your newfound power is **Carminite**; its crafting recipe requires iron, redstone, blaze powder, and netherbrick, and is a shapeless recipe. [*(figure 3)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-3)
+The first thing you'll want to craft with your newfound power is **Carminite**; its crafting recipe requires iron, redstone, blaze powder, and netherbrick, and is a shapeless recipe. [*(figure 3)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-3) Carminite is used for most of the recipes added by the Carminite Blocks datapack. 
 
 The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. [*(figures 4 and 5)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-4)
 
 If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. [*(figure 6)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-6) Carminite and Carminite Blocks can be found inside ruined portal chests. [*(figure ADD LATER)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-???)
+
+Additionally, Piglins are attracted to Carminite, but *not* Carminite Blocks.
 
 ## Encased Smoker / Fire Jet
 
@@ -79,6 +81,14 @@ An Anti-Builder checks the blocks around it every second. When a Anti-Builder up
 Their special ability is *Item Magnetism*; when a Carminite tool is used, any dropped items resulting from the action will be teleported to the player using the tool. For example, if you were to use a Carminite Pickaxe to mine a block, the block would teleport to you. [*(figure 29)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-29) However, if you were to use a Carminite Pickaxe to kill a mob, the items would also teleport to you, since the effect is independent of the action performed.
 
 Carminite tools can only be repaired with iron, not Carminite. This is because *(insert preferred handwavy lore reason here)*.
+
+## Carminite Apples
+
+**Carminite Apples** are edible items made out of Carminite. There are two versions, the regular and enchanted Carminite Apple. They are crafted the same way as their golden counterparts (for the enchanted Carminite Apple, use blocks of Carminite). They can also be found in Ruined Portal chests. [*(figure ADD LATER)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-???)
+
+Eating a Carminite Apple will grant Item Magnetism for 2 minutes; this effect pulls all items in a 5-block radius towards the player. [*(figure 30)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-30) Since effects can't really be added in Minecraft, the time remaining will show in the hotbar title slot. [*(figure 31)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-31)
+
+Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and Speed II for 20 seconds.
 
 ## Images
 
@@ -239,3 +249,8 @@ Carminite tools can only be repaired with iron, not Carminite. This is because *
 <img src="https://media.discordapp.net/attachments/761101923088334861/761775420491169882/Screenshot_2020-10-03_at_11.18.35.png" width="300" title="The particle resulting from a Carminite tool teleporting an item"> 
 
 *The particle resulting from a Carminite tool teleporting an item*
+
+#### Figure 31
+<img src="https://media.discordapp.net/attachments/761101923088334861/761785202343018496/Screenshot_2020-10-03_at_11.57.24.png" width="300" title="The hotbar title showing the effect time remaining"> 
+
+*The hotbar title showing the effect time remaining*
