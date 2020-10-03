@@ -30,39 +30,47 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 
 The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. [*(figures 4 and 5)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-4)
 
-If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. [*(figure 6)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-6) Carminite and carminite blocks can be found inside ruined portal chests. *(figure ADD LATER)*
+If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. [*(figure 6)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-6) Carminite and Carminite Blocks can be found inside ruined portal chests. *(figure ADD LATER)*
 
 ## Encased Smoker / Fire Jet
 
 The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. [*(figure 7)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-7) When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. [*(figure 8)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-8)
 
-When placed, the smoker requires one block of empty air space above it to function; if this space is available, the smoker will then prevent blocks from being placed inside this space.
+When placed, the Smoker requires one block of empty air space above it to function; if this space is available, the Smoker will then prevent blocks from being placed inside this space.
 
 The **Encased Fire Jet** [*(figure 9)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-9) works similarly, but instead produces a column of flame instead of smoke. [*(figure 10)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-10)
 
 ## Reappearing Block / Controller
 
-The **Reappearing Block** [*(figure 11)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-11) is a block that (you guessed it) appears and disappears based on a redstone signal. To activate it, place it next to a **Reappearing Controller** [*(figure 12)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-12) and activate the controller.
+The **Reappearing Block** [*(figure 11)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-11) is a block that (you guessed it) appears and disappears based on a redstone signal. To activate it, place it next to a **Reappearing Controller** [*(figure 12)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-12) and activate the Controller.
 
-When activated, the controller will cause all contiguous reappearing blocks attached to start becoming intangible; [*(figure 13)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-13) when the redstone signal is turned off, they will become solid again. [*(figure 14)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-14)
+When activated, the Controller will cause all contiguous reappearing blocks attached to start becoming intangible; [*(figure 13)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-13) when the redstone signal is turned off, they will become solid again. [*(figure 14)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-14)
 
-In the case that multiple controllers are attached, the blocks will only become solid when both controllers are turned off.
+In the case that multiple Controllers are attached, the blocks will only become solid when both controllers are turned off.
 
 ## Carminite Builder
 
 The **Carminite Builder** [*(figure 15)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-15) is a block that when powered, builds temporary blocks in different directions. When turned on, it will select the nearest player and start building a line of blocks in the direction the selected player is looking. [*(figure 16)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-16)
 
-When it is turned off, or when it builds 17 blocks, or when it is "driven" into a solid block, the blocks built will begin decaying. [*(figure 17)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-17) While the blocks decay, it will be in a "recharging" state and will not be able to create any new blocks. This "recharging" state ends when all of the blocks decay, and its end is signalled by a high-pitched ping from the builder.
+When the Builder is turned off, or when it builds 17 blocks, or when it is "driven" into a solid block, the blocks built will begin decaying. [*(figure 17)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-17) While the blocks decay, it will be in a "recharging" state and will not be able to create any new blocks. This "recharging" state ends when all of the blocks decay, and its end is signalled by a high-pitched ping from the Builder.
 
-If the block is broken before the end condition is reached, it **will not** send the "start decaying" signal to the built blocks. This means that instead of beginning to decay, the blocks will only decay when the end of their lifetime is reached, which is, by default, 100 seconds.
+If the Builder is broken before the end condition is reached, it **will not** send the "start decaying" signal to the built blocks. This means that instead of beginning to decay, the blocks will only decay when the end of their lifetime is reached, which is, by default, 100 seconds.
 
-The builder can break crops and other non-solid plants by driving into them, and does not turn farmland underneath it into dirt. This means it is very suitable to use with farm automation. [*(figure 18)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-18)
+The Builder can break crops and other non-solid plants by driving into them, and does not turn farmland underneath it into dirt. This means it is very suitable to use with farm automation. [*(figure 18)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-18)
 
 ## Ghast Trap
 
 The **Ghast Trap** [*(figure 19)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-19) sucks in ghasts. It inherits the same base functionality as the [**Encased Smoker / Fire Jet**](https://github.com/wompking/carminiteblocks/blob/master/README.md#encased-smoker--fire-jet) blocks, but when activated, it produces a red particle plume. [*(figure 20)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-20)
 
 If the Ghast Trap has a magma block underneath it, then, when a ghast flies into its activated plume, the ghast will be unable to move and attack and the magma block will turn to blackstone. [*(figure 21)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-21) The ghast can then be easily dispatched. If the Ghast Trap is broken or deactivated, the ghast will be able to move and attack again. 
+
+## Anti-Builder
+
+The **Anti-Builder** [*(figure 22*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-22) prevents blocks from changing in a 9x9x9 square. When placed, it will produce a red particle box [*(figure 23*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-23) symbolising its area of effect.
+
+If another Anti-Builder is placed precisely 8 blocks away (two area-of-effect distances) the red boxes will merge to better symbolise the area of effect. [*(figure 24*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-24) Aligning the Anti-Builders incorrectly will not produce this effect. [*(figures 25 and 26*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-25) Incorrect alignment *will not* stop the Anti-Builders from functioning, however.
+
+An Anti-Builder checks the blocks around it every second. When a Anti-Builder updates, newly placed blocks inside its area of effect will break, and newly broken blocks will be replaced by anti-built blocks. [*(figures 27 and 28*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-27)
 
 ## Images
 
@@ -184,3 +192,36 @@ If the Ghast Trap has a magma block underneath it, then, when a ghast flies into
 <img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
 
 *Ghast Trap with captured ghast, having already depleted the magma block*
+
+#### Figure 22
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+
+*Anti-Builder crafting recipe*
+
+#### Figure 23
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+
+*Anti-Builder area of effect*
+
+#### Figure 24
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+
+*Two Anti-Builders, merging their areas of effect*
+
+#### Figure 25
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+
+*Two Anti-Builders, one block too close together to align properly.*
+#### Figure 26
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+
+*Two Anti-Builders, one block too far apart to align properly.*
+
+#### Figure 27
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+
+*A placed block in an Anti-Builder's area of effect being broken*
+
+#### Figure 28
+
+*A broken block in an Anti-Builder's area of effect being replaced by an anti-built block (NOT ADDED YET)*
