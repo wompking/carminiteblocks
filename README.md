@@ -184,12 +184,12 @@ An Anti-Builder checks the blocks around it every second. When a Anti-Builder up
 *Ghast Trap crafting recipe*
 
 #### Figure 20
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484546540699648/Screenshot_2020-10-02_at_16.02.45.png" width="300" title="Activated Ghast Trap"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484546540699648/Screenshot_2020-10-02_at_16.02.45.png" width="200" title="Activated Ghast Trap"> 
 
 *Activated Ghast Trap*
 
 #### Figure 21
-<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="300" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
+<img src="https://media.discordapp.net/attachments/761101923088334861/761484524848283688/Screenshot_2020-10-02_at_16.02.39.png" width="200" title="Ghast Trap with captured ghast, having already depleted the magma block"> 
 
 *Ghast Trap with captured ghast, having already depleted the magma block*
 
