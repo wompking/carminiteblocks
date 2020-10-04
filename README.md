@@ -15,9 +15,10 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 * [Carminite Tools](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-tools)
 * [Carminite Apples](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-apples)
 * [Ghast Meat](https://github.com/wompking/carminiteblocks/blob/master/README.md#ghast-meat)
-* [Installing]()
-* [Uninstalling]()
+* [Installing](https://github.com/wompking/carminiteblocks/blob/master/README.md#installing)
+* [Uninstalling](https://github.com/wompking/carminiteblocks/blob/master/README.md#uninstalling)
 * [Credits]()
+* [Disclaimer]()
 * [Images](https://github.com/wompking/carminiteblocks/blob/master/README.md#images)
 
 ## Crafting Basics
@@ -94,6 +95,23 @@ Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and
 
 **Ghast Meat**, as the name implies, is dropped by ghasts. Ghasts will now drop 0-5 Ghast Meat when killed; eating it will give you *ahem* the same amount of hunger as cooked steak, and Levitation I for 5 seconds. Cooking the Ghast Meat *ahem* won't work; ghasts have flameproof flesh or something. I don't know, I need an excuse I guess.
 
+
+
+
+
+
+## Installing
+
+First, download and unzip [INSERT RESOURCPACK PATH FOLDER WHEN DONE HERE] and put in your minecraft/resourcepacks folder. Activate it by going to the resourcepacks menu and moving the newly installed file to the right side.
+
+Second, download and unzip [INSERT DATAPACK PATH FOLDER WHEN DONE HERE] and put it in your minecraft/saves/\<save name\>/datapacks folder. Load up your world and type `/reload` in the console. A load message should appear; [*(figure 33)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-33) if not, make sure that the datapack is in the right folder and is enabled using the `/datapack enable` command. If you see a nonsensical message [*(figure 34)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-34) the resourcepack hasn't loaded correctly. Make sure it's in the right folder and is activated in the resourcepacks menu.
+
+## Uninstalling
+
+First, run the command `/function carminite:uninstall`. This will remove all related scoreboards, and cause all custom blocks to break and drop their items. A removal message should appear. [*(figure 35)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-35) Remove the datapack from your datapacks folder, or alternatively just deactivate it with `/datapack disable`. Optionally, you can then now remove/deactivate the resourcepack.
+
+Note that disabling the datapack will *not* disable the fact that the custom blocks can be placed, but it will disable the fact that the custom blocks turn into actual custom blocks when placed. Instead, they will turn into droppers. Go figure.
+ 
 ## Images
 
 #### Figure 1
@@ -268,3 +286,18 @@ Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and
 <img src="https://media.discordapp.net/attachments/761101923088334861/761780980037451807/Screenshot_2020-10-02_at_15.48.25.png" width="300" title="A Ruined Portal chest showing multiple items from the Carminite Blocks datapack"> 
 
 *A Ruined Portal chest showing multiple items from the Carminite Blocks datapack*
+
+#### Figure 33
+<img src="https://media.discordapp.net/attachments/761101923088334861/762144172307120138/Screenshot_2020-10-04_at_11.43.47.png" width="300" title="The reload message produced by the Carminite Blocks datapack"> 
+
+*The reload message produced by the Carminite Blocks datapack*
+
+#### Figure 34
+<img src="https://media.discordapp.net/attachments/761101923088334861/762146532631248936/Screenshot_2020-10-04_at_11.52.58.png" width="300" title="The reload message produced by the Carminite Blocks datapack when the resourcepack is not installed"> 
+
+*The reload message produced by the Carminite Blocks datapack when the resourcepack is not installed*
+
+#### Figure 35
+<img src="https://media.discordapp.net/attachments/761101923088334861/762146913755070494/Screenshot_2020-10-04_at_11.54.41.png" width="300" title="The uninstall message produced by the Carminite Blocks datapack"> 
+
+*The uninstall message produced by the Carminite Blocks datapack*
