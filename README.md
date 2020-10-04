@@ -17,8 +17,8 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 * [Ghast Meat](https://github.com/wompking/carminiteblocks/blob/master/README.md#ghast-meat)
 * [Installing](https://github.com/wompking/carminiteblocks/blob/master/README.md#installing)
 * [Uninstalling](https://github.com/wompking/carminiteblocks/blob/master/README.md#uninstalling)
-* [Credits]()
-* [Disclaimer]()
+* [Credits](https://github.com/wompking/carminiteblocks/blob/master/README.md#credits)
+* [Disclaimer](https://github.com/wompking/carminiteblocks/blob/master/README.md#disclaimer)
 * [Images](https://github.com/wompking/carminiteblocks/blob/master/README.md#images)
 
 ## Crafting Basics
@@ -102,16 +102,28 @@ Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and
 
 ## Installing
 
-First, download and unzip [INSERT RESOURCPACK PATH FOLDER WHEN DONE HERE] and put in your minecraft/resourcepacks folder. Activate it by going to the resourcepacks menu and moving the newly installed file to the right side.
+First, download and unzip [INSERT RESOURCPACK PATH FOLDER WHEN DONE HERE] and put in your `minecraft/resourcepacks` folder. Activate it by going to the resourcepacks menu and moving the newly installed file to the right side.
 
-Second, download and unzip [INSERT DATAPACK PATH FOLDER WHEN DONE HERE] and put it in your minecraft/saves/\<save name\>/datapacks folder. Load up your world and type `/reload` in the console. A load message should appear; [*(figure 33)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-33) if not, make sure that the datapack is in the right folder and is enabled using the `/datapack enable` command. If you see a nonsensical message [*(figure 34)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-34) the resourcepack hasn't loaded correctly. Make sure it's in the right folder and is activated in the resourcepacks menu.
+Second, download and unzip [INSERT DATAPACK PATH FOLDER WHEN DONE HERE] and put it in your m`inecraft/saves/<save name>/datapacks` folder. Load up your world and type `/reload` in the console. A load message should appear; [*(figure 33)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-33) if not, make sure that the datapack is in the right folder and is enabled using the `/datapack enable` command. If you see a nonsensical message [*(figure 34)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-34) the resourcepack hasn't loaded correctly. Make sure it's in the right folder and is activated in the resourcepacks menu.
 
 ## Uninstalling
 
 First, run the command `/function carminite:uninstall`. This will remove all related scoreboards, and cause all custom blocks to break and drop their items. A removal message should appear. [*(figure 35)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-35) Remove the datapack from your datapacks folder, or alternatively just deactivate it with `/datapack disable`. Optionally, you can then now remove/deactivate the resourcepack.
 
 Note that disabling the datapack will *not* disable the fact that the custom blocks can be placed, but it will disable the fact that the custom blocks turn into actual custom blocks when placed. Instead, they will turn into droppers. Go figure.
+
+## Credits
+
+Thanks to LyricLy and SlimRunner for providing coding help, and SlimRunner for the Spanish translation. Krokeiri supplied the textures, and Sinthorion helped a bit with the German translation. Carminite Blocks is released under the [BSD-2-Clause-Patent](https://spdx.org/licenses/BSD-2-Clause-Patent.html) license.
+
+## Disclaimer
  
+Warranty is void if trying to push or pull Carminite Blocks-added custom blocks with pistons. Anti-Builders are very laggy; don't use more than maybe 4 in a tight region. Any lore, plot, or any other types of holes are not covered by me, and are instead covered by an antimemetically-shielded perception field. 
+ 
+<img src="https://media.discordapp.net/attachments/761101923088334861/762165511496007690/ql_67c17936369813abecd291438f1132d2_l3.png" width="1200"> 
+
+If you want to provide a translation, look in the resourcepack folder, and navigate to `carminite/lang/en_us` and translate *everything* on the right side, then contact me somehow and give me the translation file and the language translated to. Or open a pull request.
+
 ## Images
 
 #### Figure 1
