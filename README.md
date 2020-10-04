@@ -14,7 +14,7 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 * [Anti-Builder](https://github.com/wompking/carminiteblocks/blob/master/README.md#anti-builder)
 * [Carminite Tools](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-tools)
 * [Carminite Apples](https://github.com/wompking/carminiteblocks/blob/master/README.md#carminite-apples)
-* [Ghast Meat]()
+* [Ghast Meat](https://github.com/wompking/carminiteblocks/blob/master/README.md#ghast-meat)
 * [Installing]()
 * [Uninstalling]()
 * [Credits]()
@@ -30,7 +30,7 @@ The first thing you'll want to craft with your newfound power is **Carminite**; 
 
 The second thing you'll want to make are **Towerwood Planks** and **Encased Towerwood Planks**. Their crafting recipes require iron and any kind of planks. [*(figures 4 and 5)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-4)
 
-If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. [*(figure 6)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-6) Carminite and Carminite Blocks can be found inside ruined portal chests. [*(figure ADD LATER)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-???)
+If you find you have too much carminite on your hands, compact it into **Carminite Blocks**. [*(figure 6)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-6) Carminite and Carminite Blocks can be found inside ruined portal chests. [*(figure 32)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-32)
 
 Additionally, Piglins are attracted to Carminite, but *not* Carminite Blocks.
 
@@ -76,7 +76,7 @@ An Anti-Builder checks the blocks around it every second. When a Anti-Builder up
 
 ## Carminite Tools
 
-**Carminite Tools** are, well, tools made out of Carminite. They are crafted like other tools, using the same crafting recipe where Carminite replaces the material being used. They have 1.6x the attack speed of their iron counterparts, but the same damage and durability rating. Carminite tools generate inside Ruined Portal chests. [*(figure ADD LATER)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-???)
+**Carminite Tools** are, well, tools made out of Carminite. They are crafted like other tools, using the same crafting recipe where Carminite replaces the material being used. They have 1.6x the attack speed of their iron counterparts, but the same damage and durability rating. Carminite tools generate inside Ruined Portal chests. [*(figure 32)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-32)
 
 Their special ability is *Item Magnetism*; when a Carminite tool is used, any dropped items resulting from the action will be teleported to the player using the tool. For example, if you were to use a Carminite Pickaxe to mine a block, the block would teleport to you. [*(figure 29)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-29) However, if you were to use a Carminite Pickaxe to kill a mob, the items would also teleport to you, since the effect is independent of the action performed.
 
@@ -84,11 +84,15 @@ Carminite tools can only be repaired with iron, not Carminite. This is because *
 
 ## Carminite Apples
 
-**Carminite Apples** are edible items made out of Carminite. There are two versions, the regular and enchanted Carminite Apple. They are crafted the same way as their golden counterparts (for the enchanted Carminite Apple, use blocks of Carminite). They can also be found in Ruined Portal chests. [*(figure ADD LATER)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-???)
+**Carminite Apples** are edible items made out of Carminite. There are two versions, the regular and enchanted Carminite Apple. They are crafted the same way as their golden counterparts (for the enchanted Carminite Apple, use blocks of Carminite). They can also be found in Ruined Portal chests. [*(figure 32)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-32)
 
 Eating a Carminite Apple will grant Item Magnetism for 2 minutes; this effect pulls all items in a 5-block radius towards the player. [*(figure 30)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-30) Since effects can't really be added in Minecraft, the time remaining will show in the hotbar title slot. [*(figure 31)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-31)
 
 Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and Speed II for 20 seconds.
+
+## Ghast Meat
+
+**Ghast Meat**, as the name implies, is dropped by ghasts. Ghasts will now drop 0-5 Ghast Meat when killed; eating it will give you *ahem* the same amount of hunger as cooked steak, and Levitation I for 5 seconds. Cooking the Ghast Meat *ahem* won't work; ghasts have flameproof flesh or something. I don't know, I need an excuse I guess.
 
 ## Images
 
@@ -259,3 +263,8 @@ Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and
 <img src="https://media.discordapp.net/attachments/761101923088334861/761785202343018496/Screenshot_2020-10-03_at_11.57.24.png" width="300" title="The hotbar title showing the effect time remaining"> 
 
 *The hotbar title showing the effect time remaining*
+
+#### Figure 32
+<img src="https://media.discordapp.net/attachments/761101923088334861/761780980037451807/Screenshot_2020-10-02_at_15.48.25.png" width="300" title="A Ruined Portal chest showing multiple items from the Carminite Blocks datapack"> 
+
+*A Ruined Portal chest showing multiple items from the Carminite Blocks datapack*
