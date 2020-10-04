@@ -114,7 +114,11 @@ Note that disabling the datapack will *not* disable the fact that the custom blo
 
 ## Credits
 
-Thanks to LyricLy and SlimRunner for providing coding help, and SlimRunner for the Spanish translation. Krokeiri supplied the textures, and Sinthorion helped a bit with the German translation. Carminite Blocks is released under the [BSD-2-Clause-Patent](https://spdx.org/licenses/BSD-2-Clause-Patent.html) license.
+Thanks to LyricLy and SlimRunner for providing coding help, and SlimRunner for the Spanish translation. Krokeiri supplied the textures, and Sinthorion helped a bit with the German translation.
+
+The original idea of Carminite and Carminite-based blocks and their textures were taken from the Twilight Forest mod, and the idea of Ghast Meat and its texture was taken from the NetherEx mod.
+
+Carminite Blocks is released under the [BSD-2-Clause-Patent](https://spdx.org/licenses/BSD-2-Clause-Patent.html) license.
 
 ## Disclaimer
  
