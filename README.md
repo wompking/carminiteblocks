@@ -281,7 +281,9 @@ If you want to provide a translation, look in the resourcepack folder, and navig
 
 #### Figure 28
 
-*A broken block in an Anti-Builder's area of effect being replaced by an anti-built block (NOT ADDED YET)*
+<img src="https://media.discordapp.net/attachments/761101923088334861/763305850646822942/2020-10-07_16.39.37.png" width="300" title="The block an Anti-Builder replaces broken blocks with"> 
+
+*The block an Anti-Builder replaces broken blocks with*
 
 #### Figure 29
 <img src="https://media.discordapp.net/attachments/761101923088334861/761775420491169882/Screenshot_2020-10-03_at_11.18.35.png" width="300" title="The particle effect resulting from a Carminite tool teleporting an item"> 
