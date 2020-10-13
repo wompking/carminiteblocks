@@ -23,7 +23,7 @@ A repository for the Carminite Blocks datapack I'm making; no files will be uplo
 
 ## Crafting Basics
 
-To start out, you'll want to craft a **dropper**;  this serves as the custom crafter for the Carminite Blocks datapack. Standing on top of the dropper and sneaking [*(figure 1)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-1) will craft the contents. The item crafted pops into existence a block above your head, so you can additionally put a hopper there [*(figure 2)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-2) to automate the process.
+To start out, you'll want to craft a dropper;  this serves as the custom crafter for the Carminite Blocks datapack. Standing on top of the dropper and sneaking [*(figure 1)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-1) will craft the contents. The item crafted pops into existence a block above your head, so you can additionally put a hopper there [*(figure 2)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-2) to automate the process. This process also works with a dispenser, but come on. A dropper is cheaper.
 
 ## Basic Crafting Recipes
 
