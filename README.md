@@ -205,17 +205,15 @@ If you want to provide a translation, look in the resourcepack folder, and navig
 
 *Reappearing Blocks disappearing*
 
-
 #### Figure 14
+<img src="https://media.discordapp.net/attachments/761101923088334861/761449035043045396/Screenshot_2020-10-02_at_13.41.39.png" width="300" title="Reappearing Blocks reappearing"> 
+
+*Reappearing Blocks reappearing*
+
+#### Figure 15
 <img src="https://media.discordapp.net/attachments/761101923088334861/761474438725238824/Screenshot_2020-10-02_at_15.12.45.png" width="300" title="Carminite Builder crafting recipe"> 
 
 *Carminite Builder crafting recipe*
-
-#### Figure 15
-<img src="https://media.discordapp.net/attachments/761101923088334861/761448385915125770/Screenshot_2020-10-02_at_13.24.42.png" width="300" title="Reappearing Block crafting recipe"> 
-
-*Reappearing Block crafting recipe*
-
 
 #### Figure 16
 <img src="https://media.discordapp.net/attachments/761101923088334861/761474421944221706/Screenshot_2020-10-02_at_15.22.32.png" width="300" title="Player steering a Carminite Builder"> 
