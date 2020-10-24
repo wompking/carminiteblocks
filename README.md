@@ -110,7 +110,9 @@ Second, download and unzip [the datapack](https://github.com/wompking/carminiteb
 
 First, run the command `/function carminite:uninstall`. This will remove all related scoreboards, and cause all custom blocks to break and drop their items. A removal message should appear. [*(figure 35)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-35) Remove the datapack from your datapacks folder, or alternatively just deactivate it with `/datapack disable`. Optionally, you can then now remove/deactivate the resourcepack.
 
-Note that disabling the datapack will *not* disable the fact that the custom blocks can be placed, but it will disable the fact that the custom blocks turn into actual custom blocks when placed. Instead, they will turn into droppers. Go figure.
+Note that disabling the datapack will *not* disable the fact that the custom blocks can be placed, but it will disable the fact that the custom blocks turn into actual custom blocks when placed. Instead, they will turn into droppers with barriers in them. Go figure.
+
+In addition to this, when the datapack is disabled, Ghast Meat, Carminite Apples, and Carminite Tools will lose their special properties. Along with all of the carminite machines also not working. And breaking/pushing the custom blocks won't work, and just leave a weird shell of a block behind. You should probably just run `/function carminite:uninstall` before disabling.
 
 ## Credits
 
