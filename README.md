@@ -39,8 +39,6 @@ Additionally, Piglins are attracted to Carminite, but *not* Carminite Blocks.
 
 The first functional block added by the Carminite Blocks datapack is the **Encased Smoker**. [*(figure 7)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-7) When supplied with a redstone input, it opens over the course of three seconds, and then begins emitting blinding smoke. [*(figure 8)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-8)
 
-When placed, the Smoker requires one block of empty air space above it to function; if this space is available, the Smoker will then prevent blocks from being placed inside this space.
-
 The **Encased Fire Jet** [*(figure 9)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-9) works similarly, but instead produces a column of flame instead of smoke. [*(figure 10)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-10)
 
 ## Reappearing Block / Controller
@@ -74,6 +72,8 @@ The **Anti-Builder** [*(figure 22*)](https://github.com/wompking/carminiteblocks
 If another Anti-Builder is placed precisely 8 blocks away (two area-of-effect distances) the red boxes will merge to better symbolise the area of effect. [*(figure 24*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-24) Aligning the Anti-Builders incorrectly will not produce this effect. [*(figures 25 and 26*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-25) Incorrect alignment *will not* stop the Anti-Builders from functioning, however.
 
 An Anti-Builder checks the blocks around it every second. When a Anti-Builder updates, newly placed blocks inside its area of effect will break, and newly broken blocks will be replaced by anti-built blocks. [*(figures 27 and 28*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-27)
+
+Since Anti-Builders check whether the blocks around them change based on their relative postion, when an Anti-Builder is pushed, there is a high chance that a lot of blocks inside the Anti-Builder's radius will break/be replaced with anti-built blocks. I'm not sure what this is useful for; perhaps automated bridge making? Just don't push Anti-Builders with pistons and you'll be fine.
 
 ## Carminite Tools
 
@@ -114,7 +114,7 @@ Note that disabling the datapack will *not* disable the fact that the custom blo
 
 ## Credits
 
-Thanks to LyricLy and SlimRunner for providing coding help, and SlimRunner for the Spanish translation. Krokeiri supplied the textures, and Sinthorion helped a bit with the German translation.
+Thanks to LyricLy and SlimRunner for providing coding help, and SlimRunner for the Spanish translation. Krokeiri supplied the textures, and Sinthorion helped a bit with the German translation. Der Discohund on the Datapack Central discord helped tremendously with the pushable blocks, and this datapack would be less fun without them.
 
 The original idea of Carminite and Carminite-based blocks and their textures were taken from the Twilight Forest mod, and the idea of Ghast Meat and its texture was taken from the NetherEx mod.
 
@@ -122,7 +122,7 @@ Carminite Blocks is released under the [BSD-2-Clause-Patent](https://spdx.org/li
 
 ## Disclaimer
  
-Warranty is void if trying to push or pull Carminite Blocks-added custom blocks with pistons. Anti-Builders are very laggy; don't use more than maybe 4 in a tight region. Any lore, plot, or any other types of holes are not covered by me, and are instead covered by an antimemetically-shielded perception field. 
+Warranty is void when pushing or pulling Carminite Blocks-added custom blocks with one-tick piston pulses. Anti-Builders are very laggy; don't use more than maybe 4 in a tight region. Any lore, plot, or any other types of holes are not covered by me, and are instead covered by an antimemetically-shielded perception field. 
  
 <img src="https://media.discordapp.net/attachments/761101923088334861/762165511496007690/ql_67c17936369813abecd291438f1132d2_l3.png" width="1200"> 
 
