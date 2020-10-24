@@ -77,7 +77,7 @@ The **Anti-Builder** [*(figure 22*)](https://github.com/wompking/carminiteblocks
 
 If another Anti-Builder is placed precisely 8 blocks away (two area-of-effect distances) the red boxes will merge to better symbolise the area of effect. [*(figure 24*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-24) Aligning the Anti-Builders incorrectly will not produce this effect. [*(figures 25 and 26*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-25) Incorrect alignment *will not* stop the Anti-Builders from functioning, however.
 
-An Anti-Builder checks the blocks around it every second. When a Anti-Builder updates, newly placed blocks inside its area of effect will break, and newly broken blocks will be replaced by anti-built blocks. [*(figures 27 and 28*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-27)
+An Anti-Builder checks the blocks around it every second. When a Anti-Builder updates, newly placed blocks inside its area of effect will break, and newly broken blocks will be replaced by anti-built blocks. [*(figures 27 and 28*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-27) Anti-built blocks will disappear 100 seconds after being placed.
 
 Since Anti-Builders check whether the blocks around them change based on their relative postion, when an Anti-Builder is pushed, there is a high chance that a lot of blocks inside the Anti-Builder's radius will break/be replaced with anti-built blocks. This is very useful for, for example, automated tunnel bores, or automated bridge makers. Go nuts!
 
