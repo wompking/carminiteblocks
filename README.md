@@ -57,9 +57,13 @@ The **Carminite Builder** [*(figure 15)*](https://github.com/wompking/carminiteb
 
 When the Builder is turned off, or when it builds 17 blocks, or when it is "driven" into a solid block, the blocks built will begin decaying. [*(figure 17)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-17) While the blocks decay, it will be in a "recharging" state and will not be able to create any new blocks. This "recharging" state ends when all of the blocks decay, and its end is signalled by a high-pitched ping from the Builder.
 
+The Builder can "drive" through intangible Reappearing Blocks.
+
 If the Builder is broken before the end condition is reached, it **will not** send the "start decaying" signal to the built blocks. This means that instead of beginning to decay, the blocks will only decay when the end of their lifetime is reached, which is, by default, 100 seconds.
 
 The Builder can break crops and other non-solid plants by driving into them, and does not turn farmland underneath it into dirt. This means it is very suitable to use with farm automation. [*(figure 18)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-18)
+
+When pushed by a piston, the Builder's "build cursor" doesn't move along with it. This could be used for some kind of Tron-based game; using commands, you can make it so that Builders don't stop placing blocks.
 
 ## Ghast Trap
 
