@@ -49,6 +49,8 @@ When activated, the Controller will cause all contiguous reappearing blocks atta
 
 In the case that multiple Controllers are attached, the blocks will only become solid when both controllers are turned off.
 
+If a block is pushed into an intangible Reappearing Block, it breaks.
+
 ## Carminite Builder
 
 The **Carminite Builder** [*(figure 15)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-15) is a block that when powered, builds temporary blocks in different directions. When turned on, it will select the nearest player and start building a line of blocks in the direction the selected player is looking. [*(figure 16)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-16)
@@ -73,7 +75,7 @@ If another Anti-Builder is placed precisely 8 blocks away (two area-of-effect di
 
 An Anti-Builder checks the blocks around it every second. When a Anti-Builder updates, newly placed blocks inside its area of effect will break, and newly broken blocks will be replaced by anti-built blocks. [*(figures 27 and 28*)](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-27)
 
-Since Anti-Builders check whether the blocks around them change based on their relative postion, when an Anti-Builder is pushed, there is a high chance that a lot of blocks inside the Anti-Builder's radius will break/be replaced with anti-built blocks. I'm not sure what this is useful for; perhaps automated bridge making? Just don't push Anti-Builders with pistons and you'll be fine.
+Since Anti-Builders check whether the blocks around them change based on their relative postion, when an Anti-Builder is pushed, there is a high chance that a lot of blocks inside the Anti-Builder's radius will break/be replaced with anti-built blocks. This is very useful for, for example, automated tunnel bores, or automated bridge makers. Go nuts!
 
 ## Carminite Tools
 
