@@ -1,0 +1,2 @@
+function carminite:crafting/craftsfx
+execute align xyz run summon item ~0.5 ~2.5 ~0.5 {PickupDelay:0,Item:{id:"minecraft:apple",Count:1b,tag:{display:{Name:'{"translate":"item.carminite.enchanted_carminite_apple","color":"#E30D34","italic":"false"}'},Enchantments:[{}],CustomModelData:551800,CustomItemId:"carminite:enchanted_carminite_apple"}}}

@@ -1,0 +1,4 @@
+kill @s
+fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:air replace #carminite:air
+data merge entity @e[limit=1,type=item,distance=..2,nbt={PickupDelay:10s,Item:{id:"minecraft:oak_planks"}}] {Item:{id:"minecraft:dropper",Count:1b,tag:{display:{Name:'{"translate":"block.carminite.anti_builder","italic":"false"}'},CustomModelData:550700,CustomItemId:"carminite:anti_builder",BlockEntityTag:{Items:[{id:"minecraft:barrier",Count:1b,tag:{carminite:{placed_block:1b,type:"carminite:anti_builder"}}}]}}}}
+data merge entity @e[limit=1,type=item,distance=..2,nbt={PickupDelay:9s,Item:{id:"minecraft:oak_planks"}}] {Item:{id:"minecraft:dropper",Count:1b,tag:{display:{Name:'{"translate":"block.carminite.anti_builder","italic":"false"}'},CustomModelData:550700,CustomItemId:"carminite:anti_builder",BlockEntityTag:{Items:[{id:"minecraft:barrier",Count:1b,tag:{carminite:{placed_block:1b,type:"carminite:anti_builder"}}}]}}}}

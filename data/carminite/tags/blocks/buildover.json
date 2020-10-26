@@ -1,0 +1,20 @@
+{
+  "values": [
+    "#minecraft:crops",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    "minecraft:vine",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:sugar_cane",
+    "minecraft:bamboo",
+    "minecraft:cactus"
+  ]
+}

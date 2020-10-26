@@ -1,0 +1,76 @@
+{
+  "display": {
+    "title": {
+      "translate": "CARMINITE (MISSING RESOURCES)",
+      "with": [
+        [{ "translate": "carminite.name" }]
+      ]
+    },
+    "description": {
+      "translate": "The Carminite Blocks Resource Pack is not installed.",
+      "with": [
+        [{
+            "translate": "advancements.carminite.installed_datapacks_menu.description_1",
+            "color": "#e30d34"
+          },
+          {
+            "translate": "carminite.version",
+            "color": "yellow"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.description_2",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.cyanides.icon",
+            "color": "white",
+            "font": "carminite:icons"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.cyanides",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.slim.icon",
+            "color": "white",
+            "font": "carminite:icons"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.slim",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.krokeiri.icon",
+            "color": "white",
+            "font": "carminite:icons"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.krokeiri",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.lyric.icon",
+            "color": "white",
+            "font": "carminite:icons"
+          },
+          {
+            "translate": "advancements.carminite.installed_datapacks_menu.lyric",
+            "color": "gray"
+          }
+        ]
+      ]
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "icon": {
+      "item": "minecraft:barrier",
+      "nbt": "{CustomModelData:550000}"
+    }
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

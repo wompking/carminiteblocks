@@ -1,0 +1,2 @@
+function carminite:crafting/craftsfx
+execute align xyz run summon item ~0.5 ~2.5 ~0.5 {PickupDelay:0,Item:{id:"minecraft:dropper",Count:1b,tag:{display:{Name:'{"translate":"block.carminite.encased_smoker","italic":"false"}'},CustomModelData:550500,CustomItemId:"carminite:encased_smoker",BlockEntityTag:{Items:[{id:"minecraft:barrier",Count:1b,tag:{carminite:{placed_block:1b,type:"carminite:encased_smoker"}}}]}}}}
