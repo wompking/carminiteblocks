@@ -84,6 +84,6 @@ execute as @e[tag=Broken] at @s run function carminite:block/break/reappearingco
 execute as @e[tag=CarminiteBlock, tag=Type_Ghast_Trap] at @s unless block ~ ~ ~ redstone_lamp run function carminite:block/piston/ping
 execute as @e[tag=Broken] at @s run function carminite:block/break/ghasttrap
 scoreboard players add @e[tag=CarminiteBlock, tag=Type_Anti_Built] CarminiteTimer0 1
-execute as @e[tag=CarminiteBlock, tag=Type_Anti_Built] at @s if score @s CarminiteTimer0 matches 2000... run setblock ~ ~ ~ air
+execute as @e[tag=CarminiteBlock, tag=Type_Anti_Built] at @s if score @s CarminiteTimer0 matches 2000.. run setblock ~ ~ ~ air
 execute as @e[tag=CarminiteBlock, tag=Type_Anti_Built] at @s unless block ~ ~ ~ minecraft:basalt run function carminite:block/piston/ping
 execute as @e[tag=Broken] at @s run function carminite:block/break/antibuilt
