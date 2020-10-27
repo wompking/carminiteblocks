@@ -58,6 +58,7 @@ execute as @a unless data entity @s SelectedItem{id:"minecraft:apple"} if data e
 
 tag @a remove CarminiteHoldingEnchCarminiteApple
 execute as @a if data entity @s SelectedItem.tag{CustomItemId:"carminite:enchanted_carminite_apple"} run tag @s add CarminiteHoldingEnchCarminiteApple
+execute as @a unless data entity @s SelectedItem{id:"minecraft:apple"} if data entity @s Inventory[{Slot:-106b}].tag{CustomItemId:"carminite:enchanted_carminite_apple"} run tag @s add CarminiteHoldingEnchCarminiteApple
 
 tag @a remove CarminiteHoldingSword
 execute as @a if data entity @s SelectedItem.tag{CustomItemId:"carminite:carminite_sword"} run tag @s add CarminiteHoldingSword
