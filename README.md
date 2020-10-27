@@ -108,9 +108,11 @@ Eating an Enchanted Carminite Apple will grant Item Magnetism for 5 minutes, and
 
 ## Installing
 
-First, download and unzip [the resourcepack](https://github.com/wompking/carminiteblocks/blob/master/Carminite%20Blocks%20Resource%20Pack.zip) and put it in your `minecraft/resourcepacks` folder. Activate it by going to the "Resource Packs" menu and moving the newly installed file to the right side.
+Download the resource pack and datapack from the [releases](https://github.com/wompking/carminiteblocks/releases).
 
-Second, download and unzip [the datapack](https://github.com/wompking/carminiteblocks/blob/master/Carminite%20Blocks.zip) and put it in your `minecraft/saves/<save name>/datapacks` folder. Load up your world and type `/reload` in the console. A load message should appear; [*(figure 33)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-33) if not, make sure that the datapack is in the right folder and is enabled using the `/datapack enable` command. If you see a nonsensical message [*(figure 34)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-34) the resourcepack hasn't loaded correctly. Make sure it's in the right folder and is activated in the resourcepacks menu.
+First, unzip the resource pack and put it in your `minecraft/resourcepacks` folder. Activate it by going to the "Resource Packs" menu and moving the newly installed file to the right side.
+
+Second, unzip the datapack and put it in your `minecraft/saves/<save name>/datapacks` folder. Load up your world and type `/reload` in the console. A load message should appear; [*(figure 33)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-33) if not, make sure that the datapack is in the right folder and is enabled using the `/datapack enable` command. If you see a nonsensical message [*(figure 34)*](https://github.com/wompking/carminiteblocks/blob/master/README.md#figure-34) the resourcepack hasn't loaded correctly. Make sure it's in the right folder and is activated in the resourcepacks menu.
 
 ## Uninstalling
 
