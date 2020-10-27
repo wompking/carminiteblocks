@@ -50,9 +50,11 @@ scoreboard players set @a CarminiteHoe 0
 
 tag @a remove CarminiteHoldingGMeat
 execute as @a if data entity @s SelectedItem.tag{CustomItemId:"carminite:ghast_meat"} run tag @s add CarminiteHoldingGMeat
+execute as @a unless data entity @s SelectedItem{id:"minecraft:cooked_beef"} if data entity @s Inventory[{Slot:-106b}].tag{CustomItemId:"carminite:ghast_meat"} run tag @s add CarminiteHoldingGMeat
 
 tag @a remove CarminiteHoldingCarminiteApple
 execute as @a if data entity @s SelectedItem.tag{CustomItemId:"carminite:carminite_apple"} run tag @s add CarminiteHoldingCarminiteApple
+execute as @a unless data entity @s SelectedItem{id:"minecraft:apple"} if data entity @s Inventory[{Slot:-106b}].tag{CustomItemId:"carminite:carminite_apple"} run tag @s add CarminiteHoldingCarminiteApple
 
 tag @a remove CarminiteHoldingEnchCarminiteApple
 execute as @a if data entity @s SelectedItem.tag{CustomItemId:"carminite:enchanted_carminite_apple"} run tag @s add CarminiteHoldingEnchCarminiteApple
