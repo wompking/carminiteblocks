@@ -21,6 +21,7 @@ execute if block ~ ~-1 ~ air run scoreboard players set @s CarminiteTimer0 0
 
 execute as @s[tag=STATE_OFF_TRANS] if score @s CarminiteTimer0 matches 3.. run setblock ~ ~-1 ~ air destroy
 execute as @s[tag=STATE_ON_TRANS] if score @s CarminiteTimer0 matches 3.. run setblock ~ ~-1 ~ air destroy
+execute if score @s CarminiteTimer0 matches 3.. run scoreboard players set @s CarminiteTimer0 0
 
 execute as @s[tag=OFF_SOLID_BECOME] run playsound carminite:block.reappearing_block.appear block @a ~ ~-1 ~
 execute as @s[tag=OFF_TRANS_BECOME] run playsound carminite:block.reappearing_block.vanish block @a ~ ~-1 ~
