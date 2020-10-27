@@ -157,9 +157,9 @@ If you want to provide a translation, look in the resourcepack folder, and navig
 
 
 #### Figure 4
-<img src="https://media.discordapp.net/attachments/761101923088334861/761112205088653318/Screenshot_2020-10-01_at_15.23.10.png" width="300" title="Towerwood's crafting recipe">
+<img src="https://media.discordapp.net/attachments/761101923088334861/761112205088653318/Screenshot_2020-10-01_at_15.23.10.png" width="300" title="Towerwood's crafting recipe, which accepts any type of planks">
 
-*Towerwood's crafting recipe*
+*Towerwood's crafting recipe, which accepts any type of planks*
 
 
 #### Figure 5
