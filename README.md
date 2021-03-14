@@ -132,10 +132,7 @@ Carminite Blocks is released under the [BSD-2-Clause-Patent](https://spdx.org/li
 
 ## Disclaimer
  
-Warranty is void when pushing or pulling Carminite Blocks-added custom blocks with one-tick piston pulses. Anti-Builders are very laggy; don't use more than maybe 4 in a tight region. Any lore, plot, or any other types of holes are not covered by me, and are instead covered by an antimemetically-shielded perception field. 
- 
-<img src="https://media.discordapp.net/attachments/761101923088334861/762165511496007690/ql_67c17936369813abecd291438f1132d2_l3.png" width="1200"> 
-
+Warranty is void when pushing or pulling Carminite Blocks-added custom blocks with one-tick piston pulses. Anti-Builders are very laggy; don't use more than maybe 4 in a tight region. Any lore, plot, or any other types of holes are not covered by me, and are instead covered by an antimemetically-shielded perception field.
 If you want to provide a translation, look in the resourcepack folder, and navigate to `carminite/lang/en_us` and translate *everything* on the right side, then contact me somehow and give me the translation file and the language translated to. Or open a pull request.
 
 ## Images
