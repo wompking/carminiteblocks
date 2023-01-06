@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:item",
+    "minecraft:chicken",
+    "minecraft:silverfish",
+    "minecraft:endermite",
+    "minecraft:vex",
+    "minecraft:allay",
+    "minecraft:tadpole",
+    "minecraft:parrot",
+    "minecraft:pufferfish",
+    "minecraft:rabbit",
+    "minecraft:frog",
+    "minecraft:bee",
+    "minecraft:bat",
+    "minecraft:tnt",
+    "minecraft:arrow",
+    "minecraft:spectral_arrow"
+  ]
+}

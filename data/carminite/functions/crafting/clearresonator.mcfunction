@@ -1,0 +1,2 @@
+function carminite:crafting/craftsfx
+execute align xyz run summon item ~0.5 ~2.5 ~0.5 {PickupDelay:0,Item:{id:"minecraft:clock",Count:1b,tag:{display:{Name:'{"translate":"item.carminite.activated_carminite_resonator","color":"#E30D34","italic":"false"}'},CustomModelData:552300,CustomItemId:"carminite:activated_carminite_resonator"}}}

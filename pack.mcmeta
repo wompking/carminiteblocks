@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 6,
-    "description": [{"text":"Carminite Blocks","color":"#e30d34"},{"text":"\n"},{"text":"Version 0.3.11","color":"yellow"}]
+    "pack_format": 10,
+    "description": [{"text":"Carminite Blocks","color":"#e30d34"},{"text":"\n"},{"text":"Version 0.4","color":"yellow"}]
   }
 }

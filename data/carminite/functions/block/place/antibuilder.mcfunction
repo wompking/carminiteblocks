@@ -1,3 +1,3 @@
 setblock ~ ~ ~ minecraft:oak_planks
-summon armor_stand ~ ~-0.5 ~ {Fire:32767s,ArmorItems:[{},{},{},{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:550700}}],Tags:["CarminiteBlock","Type_Anti_Builder"],NoGravity:1b,Invisible:1b,Marker:1b,Small:1b}
+summon armor_stand ~ ~-0.5 ~ {Fire:32767s,ArmorItems:[{},{},{},{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:550700}}],Tags:["CarminiteBlock","Type_Anti_Builder"],NoGravity:1b,Invisible:1b,Marker:1b,Small:1b,Silent:1b}
 execute positioned ~ ~-0.5 ~ as @e[tag=Type_Anti_Builder,limit=1,sort=nearest,distance=..0.5] positioned ~ ~0.5 ~ run function carminite:block/place/antibuilderscanning

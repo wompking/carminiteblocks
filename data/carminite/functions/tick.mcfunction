@@ -1,3 +1,6 @@
+execute as @a if score @s CarminiteMilk matches 1.. run scoreboard players set @s CarminiteMagTime 0
+scoreboard players set @a CarminiteMilk 0
+
 execute as @a if score @s CarminiteMagTime matches 1.. if score @s CarminiteMagTimS matches ..9 run title @s actionbar [{"translate":"carminite.info.magnetismtime"},{"score":{"name":"@s","objective":"CarminiteMagTimM"},"color":"#E30D34"},{"text":" : ","color":"#E30D34"},{"text":"0","color":"#E30D34"},{"score":{"name":"@s","objective":"CarminiteMagTimS"},"color":"#E30D34"}]
 execute as @a if score @s CarminiteMagTime matches 1.. if score @s CarminiteMagTimS matches 10.. run title @s actionbar [{"translate":"carminite.info.magnetismtime"},{"score":{"name":"@s","objective":"CarminiteMagTimM"},"color":"#E30D34"},{"text":" : ","color":"#E30D34"},{"score":{"name":"@s","objective":"CarminiteMagTimS"},"color":"#E30D34"}]
 execute as @a if score @s CarminiteMagTime matches 1.. at @s run function carminite:magnetism
@@ -74,3 +77,7 @@ execute as @a if data entity @s SelectedItem.tag{CustomItemId:"carminite:carmini
 
 tag @a remove CarminiteHoldingHoe
 execute as @a if data entity @s SelectedItem.tag{CustomItemId:"carminite:carminite_hoe"} run tag @s add CarminiteHoldingHoe
+
+
+setblock 0 -64 0 minecraft:barrel
+setblock 0 -63 0 minecraft:bedrock

@@ -186,6 +186,48 @@ execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot
 execute as @a[tag=CarminiteCraftGhastTrap] at @s run function carminite:crafting/craftghasttrap
 tag @a remove CarminiteCraftGhastTrap
 
+#item vacuum
+tag @a[tag=CarminiteCrafting] add CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:ender_pearl"}] run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:2b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:3b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:4b,id:"minecraft:hopper"}] run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:5b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:6b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:7b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:8b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftItemVacuum
+execute as @a[tag=CarminiteCraftItemVacuum] at @s run function carminite:crafting/craftitemvacuum
+tag @a remove CarminiteCraftItemVacuum
+
+#charger
+tag @a[tag=CarminiteCrafting] add CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:copper_ingot"}] run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:2b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:3b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:4b,id:"minecraft:amethyst_shard"}] run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:5b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:6b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:7b,id:"minecraft:copper_ingot"}] run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:8b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftCharger
+execute as @a[tag=CarminiteCraftCharger] at @s run function carminite:crafting/craftcarminitecharger
+tag @a remove CarminiteCraftCharger
+
+#charger
+tag @a[tag=CarminiteCrafting] add CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:netherite_ingot"}] run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:2b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:3b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:carminite_block"} run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:4b,id:"minecraft:ender_pearl"}] run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:5b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:carminite_block"} run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:6b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:7b,id:"minecraft:hopper"}] run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:8b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:encased_towerwood"} run tag @s remove CarminiteCraftEntangler
+execute as @a[tag=CarminiteCraftEntangler] at @s run function carminite:crafting/craftentangloporter
+tag @a remove CarminiteCraftEntangler
+
 #carminite sword
 tag @a[tag=CarminiteCrafting] add CarminiteCraftCarminiteSword
 execute as @a[tag=CarminiteCrafting] at @s if data block ~ ~-1 ~ Items[{Slot:0b}] run tag @s remove CarminiteCraftCarminiteSword
@@ -285,3 +327,35 @@ execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot
 execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:8b,id:"minecraft:dropper"}].tag{CustomItemId:"carminite:carminite_block"} run tag @s remove CarminiteCraftEnchantedCarminiteApple
 execute as @a[tag=CarminiteCraftEnchantedCarminiteApple] at @s run function carminite:crafting/craftenchcarminiteapple
 tag @a remove CarminiteCraftEnchantedCarminiteApple
+
+#carminite resonator
+tag @a[tag=CarminiteCrafting] add CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s if data block ~ ~-1 ~ Items[{Slot:0b}] run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s if data block ~ ~-1 ~ Items[{Slot:2b}] run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:3b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:4b,id:"minecraft:echo_shard"}] run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:5b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s if data block ~ ~-1 ~ Items[{Slot:6b}] run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s at @s unless data block ~ ~-1 ~ Items[{Slot:7b,id:"minecraft:clock"}].tag{CustomItemId:"carminite:carminite"} run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCrafting] at @s if data block ~ ~-1 ~ Items[{Slot:8b}] run tag @s remove CarminiteCraftResonator
+execute as @a[tag=CarminiteCraftResonator] at @s run function carminite:crafting/craftcarminiteresonator
+tag @a remove CarminiteCraftResonator
+
+
+#cleared resonator
+tag @a[tag=CarminiteCrafting] add CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s store success score @s CarminiteAmount run data get block ~ ~-1 ~ Items[{id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}]
+execute as @a[tag=CarminiteCrafting] unless score @s CarminiteAmount matches 1 run tag @s remove CarminiteClearResonator
+
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:0b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:0b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:1b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:1b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:2b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:2b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:3b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:3b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:4b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:4b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:5b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:5b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:6b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:6b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:7b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:7b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteCrafting] at @s unless data block ~ ~-1 ~ Items[{Slot:8b,id:"minecraft:clock",tag:{CustomItemId:"carminite:activated_carminite_resonator"}}] if data block ~ ~-1 ~ Items[{Slot:8b}] run tag @s remove CarminiteClearResonator
+execute as @a[tag=CarminiteClearResonator] at @s run function carminite:crafting/clearresonator
+tag @a remove CarminiteClearResonator

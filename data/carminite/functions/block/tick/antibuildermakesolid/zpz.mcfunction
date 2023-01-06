@@ -1,27 +1,44 @@
-execute positioned ~-1 ~2 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:2b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~2 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:2b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~2 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:2b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~3 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:3b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~3 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:3b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~3 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:3b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~4 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:4b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~4 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:4b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~-1 ~4 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:4b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~2 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:2b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~2 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:2b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~2 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:2b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~3 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:3b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~3 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:3b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~3 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:3b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~4 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:4b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~4 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:4b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~0 ~4 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:4b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~2 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:2b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~2 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:2b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~2 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:2b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~3 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:3b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~3 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:3b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~3 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:3b,Z:1b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~4 ~-1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:4b,Z:-1b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~4 ~0 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:4b,Z:0b}] run function carminite:block/place/antibuilt
-execute positioned ~1 ~4 ~1 if block ~ ~ ~ #carminite:air unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:4b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~2 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:2b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~2 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:2b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~2 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:2b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~3 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:3b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~3 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:3b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~3 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:3b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~4 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:4b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~4 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:4b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~-1 ~4 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:-1b,Y:4b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~2 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:2b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~2 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:2b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~2 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:2b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~3 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:3b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~3 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:3b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~3 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:3b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~4 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:4b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~4 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:4b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~0 ~4 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:0b,Y:4b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~2 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:2b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~2 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:2b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~2 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:2b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~3 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:3b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~3 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:3b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~3 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:3b,Z:1b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~4 ~-1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:4b,Z:-1b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~4 ~0 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:4b,Z:0b}] run function carminite:block/place/antibuilt
+execute positioned ~1 ~4 ~1 if block ~ ~ ~ #carminite:air positioned ~ ~-0.5 ~ unless entity @e[type=minecraft:armor_stand,tag=Type_Reappearing_Block,tag=CarminiteBlock,tag=STATE_TRANS,distance=..0.5] positioned ~ ~0.5 ~ unless data entity @s ArmorItems[3].tag.Air[{X:1b,Y:4b,Z:1b}] run function carminite:block/place/antibuilt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
